@@ -1,0 +1,81 @@
+.loader-spinner {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 27px;
+  height: 27px;
+  animation: spin 1.5s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animation{
+    -webkit-animation: fadeInRight 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadeInRight 1s; /* Firefox < 16 */
+     -ms-animation: fadeInRight 1; /* Internet Explorer */
+      -o-animation: fadeInRight 1s; /* Opera < 12.1 */
+         animation: fadeInRight 1s;
+         z-index: 1;
+}
+
+@keyframes fadeInRight {
+    0% {
+
+        transform: translateX(-5%);
+     }
+     100% {
+        transform: translateX(0);
+     }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-5%);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-5%);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-5%);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-5%);
+     }
+     100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
