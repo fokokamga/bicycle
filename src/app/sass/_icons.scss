@@ -1,0 +1,268 @@
+.icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    &.icon-API_Followed {
+        width: 32px;
+        height: 32px;
+        background-position: 0 0;
+    }
+    &.icon-API_Owned {
+        width: 32px;
+        height: 32px;
+        background-position: -64px 0;
+    }
+    &.icon-API_Used {
+        width: 32px;
+        height: 32px;
+        background-position: -128px 0;
+    }
+    &.icon-CAT_assurance {
+        width: 32px;
+        height: 32px;
+        background-position: -192px 0;
+    }
+    &.icon-CAT_Compte {
+        width: 32px;
+        height: 32px;
+        background-position: -256px 0;
+    }
+    &.icon-CAT_investment {
+        width: 32px;
+        height: 32px;
+        background-position: -320px 0;
+    }
+    &.icon-CAT_paiement {
+        width: 32px;
+        height: 32px;
+        background-position: -384px 0;
+    }
+    &.icon-CAT_pret {
+        width: 32px;
+        height: 32px;
+        background-position: -448px 0;
+    }
+    &.icon-Changelog {
+        width: 32px;
+        height: 32px;
+        background-position: -512px 0;
+    }
+    &.icon-Chevron_accordion {
+        width: 32px;
+        height: 32px;
+        background-position: -640px 0;
+    }
+    &.icon-chevron {
+        width: 32px;
+        height: 32px;
+        background-position: -704px 0;
+        transform: scale(0.5) rotate(-90deg);
+    }
+    &.icon-com-neg {
+        width: 32px;
+        height: 32px;
+        background-position: -768px 0;
+    }
+    &.icon-com-pos {
+        width: 32px;
+        height: 32px;
+        background-position: -832px 0;
+    }
+    &.icon-Connect_APIM_Card {
+        width: 32px;
+        height: 32px;
+        background-position: -896px 0;
+    }
+    &.icon-Connect_APIM {
+        width: 32px;
+        height: 32px;
+        background-position: -960px 0;
+    }
+    &.icon-cross {
+        width: 32px;
+        height: 32px;
+        background-position: -1024px 0;
+    }
+    &.icon-Delete {
+        width: 32px;
+        height: 32px;
+        background-position: -1088px 0;
+    }
+    &.icon-Docs {
+        width: 32px;
+        height: 32px;
+        background-position: -1152px 0;
+    }
+    &.icon-Download {
+        width: 32px;
+        height: 32px;
+        background-position: -1216px 0;
+    }
+    &.icon-DragDrop {
+        width: 32px;
+        height: 32px;
+        background-position: -1280px 0;
+    }
+    &.icon-Edit {
+        width: 32px;
+        height: 32px;
+        background-position: -1344px 0;
+    }
+    &.icon-email {
+        width: 32px;
+        height: 32px;
+        background-position: -1408px 0;
+    }
+    &.icon-Followed {
+        width: 32px;
+        height: 32px;
+        background-position: -1472px 0;
+    }
+    &.icon-HIW_go {
+        width: 32px;
+        height: 32px;
+        background-position: -1536px 0;
+    }
+    &.icon-HIW_intelligeance {
+        width: 32px;
+        height: 32px;
+        background-position: -1600px 0;
+    }
+    &.icon-HIW_jumelle {
+        width: 32px;
+        height: 32px;
+        background-position: -1664px 0;
+    }
+    &.icon-HIW_library {
+        width: 32px;
+        height: 32px;
+        background-position: -1728px 0;
+    }
+    &.icon-HIW_sandbox {
+        width: 32px;
+        height: 32px;
+        background-position: -1792px 0;
+    }
+    &.icon-HIW_sla {
+        width: 32px;
+        height: 32px;
+        background-position: -1856px 0;
+    }
+    &.icon-home {
+        width: 32px;
+        height: 32px;
+        background-position: -1920px 0;
+        transform: scale(0.5);
+    }
+    &.icon-Info {
+        width: 32px;
+        height: 32px;
+        background-position: -1984px 0;
+        transform: scale(0.5);
+        cursor: pointer;
+    }
+    &.icon-Key {
+        width: 32px;
+        height: 32px;
+        background-position: 0 -64px;
+    }
+    &.icon-like-neg {
+        width: 32px;
+        height: 32px;
+        background-position: -64px -64px;
+    }
+    &.icon-like-pos {
+        width: 32px;
+        height: 32px;
+        background-position: -128px -64px;
+    }
+    &.icon-Logout {
+        width: 32px;
+        height: 32px;
+        background-position: -192px -64px;
+    }
+    &.icon-MyAPIs {
+        width: 32px;
+        height: 32px;
+        background-position: -256px -64px;
+    }
+    &.icon-Notif_off {
+        width: 32px;
+        height: 32px;
+        background-position: -320px -64px;
+    }
+    &.icon-Notif_on {
+        width: 32px;
+        height: 32px;
+        background-position: -384px -64px;
+    }
+    &.icon-personal_settings_on {
+        width: 32px;
+        height: 32px;
+        background-position: -448px -64px;
+    }
+    &.icon-Profil_Neg {
+        width: 32px;
+        height: 32px;
+        background-position: -512px -64px;
+    }
+    &.icon-Profil_Pos {
+        width: 32px;
+        height: 32px;
+        background-position: -576px -64px;
+    }
+    &.icon-Related_API {
+        width: 32px;
+        height: 32px;
+        background-position: -640px -64px;
+    }
+    &.icon-REST_SOAP {
+        width: 32px;
+        height: 32px;
+        background-position: -704px -64px;
+    }
+    &.icon-Scratch_card {
+        width: 32px;
+        height: 32px;
+        background-position: -768px -64px;
+    }
+    &.icon-search {
+        width: 32px;
+        height: 32px;
+        background-position: -832px -64px;
+    }
+    &.icon-Settings {
+        width: 32px;
+        height: 32px;
+        background-position: -896px -64px;
+    }
+    &.icon-Show_hide {
+        width: 32px;
+        height: 32px;
+        background-position: -960px -64px;
+    }
+    &.icon-Show {
+        width: 32px;
+        height: 32px;
+        background-position: -1024px -64px;
+    }
+    &.icon-support {
+        width: 32px;
+        height: 32px;
+        background-position: -1088px -64px;
+    }
+    &.icon-check {
+        width: 32px;
+        height: 32px;
+        background-position: -320px 0;
+        transform: scale(0.5) rotate(90deg);
+        vertical-align: middle;
+    }
+    &.icon-back {
+        width: 32px;
+        height: 32px;
+        background-position: -1152px -64px;
+        transform: scale(0.5) rotate(90deg);
+        vertical-align: middle;
+        margin-left: -8px;
+    }
+}
