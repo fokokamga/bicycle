@@ -1,0 +1,22 @@
+html, body{
+    font-family: $font-family;
+    margin:0;
+    padding: 0;
+}
+a{
+  color: #0099fa;
+}
+
+.link{
+  color: #0099fa;
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+.tooltip-arrow{
+  left:47% !important;
+}
+
+.bold{
+  font-weight: bold;
+}

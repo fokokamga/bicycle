@@ -1,0 +1,72 @@
+// CTA
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-secondary {
+    background-color: #DF394A;
+    border: solid 1px #DF394A;
+    min-width: 153px;
+    min-height: 51px;
+    font-size: $font-size+1;
+    text-align: center;
+    color: #DF394A;
+    border-radius: 0.15rem;
+    &:not(:disabled):not(.disabled):active,
+    &.active,
+    &:hover,
+    &.hover,
+    &.focus,
+    &:focus {
+        color: #ffffff;
+        background-color: #ffffff;
+        border: solid 1px #ffffff;
+    }
+    &:disabled,
+    &.disabled {
+        opacity: 0.33;
+        color: #DF394A;
+        background-color: #DF394A;
+        border: solid 1px #DF394A;
+        cursor: pointer;
+    }
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    border-radius: 0.1em;
+    font-size: $font-size+1;
+    text-align: center;
+    color: #ffffff;
+    padding: 13px 24px;
+    margin: 3px;
+    &.chevron {
+         ::after {
+            content: " ";
+            padding-left: 10px;
+            vertical-align: middle;
+            @extend #{'.icon'};
+            @extend #{'.icon-chevron'};
+        }
+    }
+    &:not(:disabled):not(.disabled):active,
+    &.active,
+    &:hover,
+    &.hover,
+    &.focus,
+    &:focus {
+        color: #ffffff;
+        background-color: #ffffff;
+        border: solid 1px #ffffff;
+    }
+    &:disabled,
+    &.disabled {
+        opacity: 0.33;
+        color: #ffffff;
+        background-color: #ffffff;
+        border: solid 1px #ffffff;
+        cursor: pointer;
+    }
+}

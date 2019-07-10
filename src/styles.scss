@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+//Import local scss files
+@import "../src/app/sass/mixins";
+@import "../src/app/sass/fonts";
+@import "../src/app/sass/variables";
+@import "../src/app/sass/global";
+@import "../src/app/sass/buttons";
+@import "../src/app/sass/spinner";
+@import "../src/app/sass/animation";
