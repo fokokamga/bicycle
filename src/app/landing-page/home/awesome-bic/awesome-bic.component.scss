@@ -1,0 +1,21 @@
+@import "../../../sass/variables";
+@import "../../../sass/buttons";
+@import "../../../sass/icons";
+.carousel-item {
+    height: 820px;
+}
+
+.text {
+    color: $text-white;
+    font-size: $font-size+80;
+    justify-content: center;
+}
+
+.btn-secondary {
+    border-radius: 2.15rem;
+}
+
+.mb-5,
+.my-5 {
+    margin-bottom: 19rem !important;
+}
