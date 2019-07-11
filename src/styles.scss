@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "~bootstrap/dist/css/bootstrap.css";
 //Import local scss files
 @import "../src/app/sass/mixins";
 @import "../src/app/sass/fonts";
