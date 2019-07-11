@@ -1,0 +1,15 @@
+@import "../../../sass/variables";
+@import "../../../sass/buttons";
+@import "../../../sass/icons";
+.text {
+    color: black;
+    justify-content: center;
+}
+
+.btn-secondary {
+    border-radius: $button-rad;
+    -webkit-border-radius: $button-rad;
+    -moz-border-radius: $button-rad;
+    -ms-border-radius: $button-rad;
+    -o-border-radius: $button-rad;
+}
