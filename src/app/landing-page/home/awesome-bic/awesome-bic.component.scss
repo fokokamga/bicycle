@@ -12,7 +12,11 @@
 }
 
 .btn-secondary {
-    border-radius: 2.15rem;
+    border-radius: $button-rad;
+    -webkit-border-radius: $button-rad;
+    -moz-border-radius: $button-rad;
+    -ms-border-radius: $button-rad;
+    -o-border-radius: $button-rad;
 }
 
 .mb-5,
