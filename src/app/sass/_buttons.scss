@@ -7,11 +7,11 @@
 .btn-secondary {
     background-color: #DF394A;
     border: solid 1px #DF394A;
-    min-width: 153px;
+    min-width: 160px;
     min-height: 51px;
     font-size: $font-size+1;
     text-align: center;
-    color: #DF394A;
+    color: #ffff;
     border-radius: 0.15rem;
     &:not(:disabled):not(.disabled):active,
     &.active,
@@ -19,9 +19,9 @@
     &.hover,
     &.focus,
     &:focus {
-        color: #ffffff;
-        background-color: #ffffff;
-        border: solid 1px #ffffff;
+        color: #ffff;
+        background-color: #DF394A;
+        border: solid 1px #DF394A;
     }
     &:disabled,
     &.disabled {
