@@ -34,12 +34,14 @@
 }
 
 .btn-primary {
+    min-width: 140px;
+    min-height: 51px;
     background-color: #ffffff;
     border: solid 1px #ffffff;
     border-radius: 0.1em;
     font-size: $font-size+1;
     text-align: center;
-    color: #ffffff;
+    color: black;
     padding: 13px 24px;
     margin: 3px;
     &.chevron {
@@ -57,14 +59,14 @@
     &.hover,
     &.focus,
     &:focus {
-        color: #ffffff;
+        color: black;
         background-color: #ffffff;
         border: solid 1px #ffffff;
     }
     &:disabled,
     &.disabled {
         opacity: 0.33;
-        color: #ffffff;
+        color: black;
         background-color: #ffffff;
         border: solid 1px #ffffff;
         cursor: pointer;

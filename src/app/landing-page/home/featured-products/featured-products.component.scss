@@ -1,0 +1,33 @@
+@import "../../../sass/variables";
+@import "../../../sass/buttons";
+@import "../../../sass/icons";
+.text {
+    color: $text-white;
+    justify-content: center;
+}
+
+#mountainbike {
+    background-color: $mountainbike_color;
+}
+
+#frames {
+    background-color: $frames_color;
+}
+
+#aerosys {
+    background-color: $aero_system;
+    color: $text-black;
+}
+
+#aer {
+    background-color: $aero_system_new;
+}
+
+.btn-primary {
+    border-radius: $button-rad;
+    -webkit-border-radius: $button-rad;
+    -moz-border-radius: $button-rad;
+    -ms-border-radius: $button-rad;
+    -o-border-radius: $button-rad;
+    color: $text-black;
+}
