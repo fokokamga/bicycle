@@ -1,30 +1,37 @@
-<nav class="navbar navbar-dark bg-dark">
+<!-- using auto margins -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <i class="fa fa-fw fa-search fa-2x border-right" id="search"></i>
+            </li>
+            <li class="nav-item text ">
+                <i class="fa fa-list fa-2x border-right ml-4" id="search"> Shop Category</i>
+            </li>
 
-    <div class="topnav-left">
 
-        <i class="fa fa-fw fa-search fa-2x border-right" id="search"></i>
-
-
-        <button class="navbar-toggler border-right ml-5 py-3 " type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <span class="text"> Shop Category</span>
+        </ul>
+    </div>
+    <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="#">
+            <h2 class="text">BICYCLE COMPANY</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
         </button>
-
-
-
     </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <i class="fa far fa-user fa-2x mr-5 pl-5 border-left" style="padding-top: 16px;padding-bottom: 16px;"></i>
 
-    <!-- Centered link -->
-    <div class="topnav-centered">
-        <h2 class="text">BICYCLE COMPANY</h2>
+            </li>
+            <li class="nav-item">
+                <i class="fa far fa-heart fa-2x mr-5 pl-5 border-left" style="padding-top: 16px;padding-bottom: 16px;"></i>
+            </li>
+            <li class="nav-item">
+                <i class="fa fa-shopping-cart fa-2x pl-5 border-left " style="padding-top: 16px;padding-bottom: 16px;"></i>
+            </li>
+        </ul>
     </div>
-
-    <!-- Right-aligned links -->
-    <div class="topnav-right">
-        <i class="fa far fa-user fa-2x mr-5 pl-5 border-left" style="padding-top: 16px;padding-bottom: 16px;"></i>
-        <i class="fa far fa-heart fa-2x mr-5 pl-5 border-left" style="padding-top: 16px;padding-bottom: 16px;"></i>
-        <i class="fa fa-shopping-cart fa-2x pl-5 border-left " style="padding-top: 16px;padding-bottom: 16px;"></i>
-    </div>
-
-
 </nav>
