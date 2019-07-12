@@ -1,10 +1,6 @@
 @import "../../../sass/variables";
 @import "../../../sass/buttons";
 @import "../../../sass/icons";
-.carousel-item {
-    height: 820px;
-}
-
 .text {
     color: $text-white;
     font-size: $font-size+80;
@@ -22,4 +18,32 @@
 .mb-5,
 .my-5 {
     margin-bottom: 19rem !important;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $screen-xs-min) {
+    .carousel-item {
+        height: 225px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $screen-sm-min) {
+    .carousel-item {
+        height: 325px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $screen-md-min) {
+    .carousel-item {
+        height: 820px;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: $screen-lg-min) {
+    .carousel-item {
+        height: 820px;
+    }
 }

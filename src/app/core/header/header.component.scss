@@ -8,7 +8,7 @@
 }
 
 .navbar {
-    min-height: 80px !important;
+    // min-height: 80px !important;
 }
 
 .topnav-centered {
@@ -35,4 +35,13 @@
 
 .bg-dark {
     background-color: black !important;
+}
+
+@media (min-width: $screen-sm-min) {
+    .navbar-brand.abs {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
 }
