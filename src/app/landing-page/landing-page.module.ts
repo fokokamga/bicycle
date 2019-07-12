@@ -10,8 +10,7 @@ import { FeaturedProductsComponent } from './home/featured-products/featured-pro
 
 
 @NgModule({
-  declarations: [HomeComponent, AwesomeBicComponent, WhoWeAreComponent, FeaturedProductsComponent, HeaderComponent,
-    FooterComponent],
+  declarations: [HomeComponent, AwesomeBicComponent, WhoWeAreComponent, FeaturedProductsComponent ],
   imports: [
     CommonModule
   ]

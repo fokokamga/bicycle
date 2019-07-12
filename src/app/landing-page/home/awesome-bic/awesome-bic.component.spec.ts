@@ -1,3 +1,5 @@
+import { By } from '@angular/platform-browser';
+import { DebugElement } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AwesomeBicComponent } from './awesome-bic.component';
@@ -20,6 +22,12 @@ describe('AwesomeBicComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    expect(component).toBeDefined();
+  });
+  it('should find the <h1> with fixture.debugElement.query(By.css)', () => {
+    const awe: DebugElement = fixture.debugElement;
+    const paragraphDe = awe.query(By.css('h1'));
+    const h1: HTMLElement = paragraphDe.nativeElement;
+    expect(h1.textContent).toEqual('AWESOME BICYCLE PRODUCTS');
   });
 });
